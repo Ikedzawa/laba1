@@ -10,6 +10,10 @@ namespace laba1
     {
         static void Main(string[] args)
         {
+            Monitor monitor = new Monitor();
+            monitor.Input();
+            monitor.GetInfo();
+            Console.ReadKey();
         }
     }
 }
