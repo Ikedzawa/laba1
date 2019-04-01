@@ -20,6 +20,12 @@ namespace laba1
             type = "";
             diagonal = 0;
         }
+        public Monitor(string Firm, string Type, float Diagonal)
+        {
+            firm = Firm;
+            type = Type;
+            diagonal = Diagonal;
+        }
         public void Input()
         {
             Console.WriteLine("Фирма");
